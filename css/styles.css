@@ -1,0 +1,443 @@
+/******s**********
+    
+    Assignment Project
+    Name: Jinyoung JANG
+    Date: June 16, 2019
+    Description: Styles for Web Portfolio
+
+*****************/
+
+html, body, header, footer, nav, ul, li, a, div, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	width: 800px;
+	font-family: Verdana, Sans-serif;
+	margin: 0px auto;
+	padding: 0px;
+	background-color: #FFF;
+	background:url("../images/background.png") no-repeat center center fixed;
+	/*Reference: made it with photoshop*/
+	background-size: cover;
+}
+
+/* Header Sections */
+header#heading{
+	width: 100%;
+	margin: 10px 0px;
+}
+	
+	header#heading > h1{
+		font-size: 20px;
+		margin: auto;
+		padding-bottom: 10px;
+		color: #DDD;
+		text-align: center;
+	}
+
+/* Horizontal Navigation Bar */
+#navi{
+	width: 100%;
+	font-weight: bold;
+	color: #DDD;
+	margin: 0px auto;
+	border-radius: 20px;
+}
+
+	#navi ul{
+		list-style: none;
+		padding: 0px;
+	}
+
+		#navi ul > li{
+			padding: 5px;
+			text-align: center;
+			margin: auto;
+			height: 30px;
+			line-height: 30px;
+		}
+
+
+		#navi ul li:hover:not(:last-of-type){
+			background-color: #AAA;
+			transition: .5s;
+		}
+
+		#navi ul ul li:hover:last-of-type{
+			transition: .5s;
+		}
+
+		#navi ul ul#socials li{
+			background: none;
+		}
+
+		/* <a> psuedo classes are applied */
+		#navi ul li a:link{
+			color: #DDD;
+			text-decoration: none;
+			font-size: 20px;
+		}
+
+		#navi ul li a:visited{
+			color: #DDD;
+		}
+
+		#navi ul li a:hover, #navi ul li a:focus{
+			color: #833;
+			transition: .5s;
+			font-weight: bolder;
+			font-size: 24px;
+		}
+
+		#navi ul li a:active{
+			color: #F00;
+		}
+
+		#navi ul ul#socials{
+			display: flex;
+			justify-content: center;
+			width: 200px;
+			margin: auto;
+		}
+
+		#navi ul ul#socials li{
+			padding: 0px;
+			margin: 10px;
+		}
+
+		#navi ul ul#socials img{
+			width: 15px;
+		}
+
+		#navi ul ul#socials img:hover, #navi ul ul#socials img:focus{
+			width: 20px;
+		}
+
+
+/* Content Section */
+#mainpage{
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-align: center;
+	padding: 10px;
+	color: #DDD;
+	margin-bottom: 300px;
+}
+
+	#mainpage h2{
+		font-size: 60px;
+	}	
+
+	#mainpage h3{
+		font-size: 24px;
+		padding-top: 100px;
+
+	}
+
+	#mainpage h4{
+		font-size: 16px;
+		padding-top: 5px;
+	}
+
+
+#profile_contents{
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-align: center;
+	padding: 10px;
+	color: #DDD;
+}
+
+	#profile_contents h5{
+		text-align: left;
+		margin-bottom: 10px;
+		margin-top: 50px;
+		font-size: 18px;
+	}
+
+	#profile_contents ul{
+		list-style: none;
+		position: relative;
+		margin-bottom: 30px;
+		width: 90%;
+	}
+
+	#profile_contents ul li{
+		line-height: 30px;
+		text-align: left;
+	}
+
+	#profile_contents img{
+		width: 50px;
+		float: left;
+	}
+
+	#profile_contents label{
+		padding-left: 20px;
+		font-weight: bold;
+	}
+
+	#profile_contents li.date{
+		position: absolute;
+		right: 10px;
+		top: 0px;
+		font-size: 14px;
+
+	}
+
+	#profile_contents h6{
+		font-style: italic;
+		font-weight: normal;
+		color: #AAA;
+	}
+
+	#profile_contents h6, #profile_contents p{
+		padding-left: 70px;
+		font-size: 14px;
+		margin: 0;
+	}
+
+
+/* 
+ct Form Styles */
+form#contactForm{
+	width: 800px;
+	color: #FFF;
+	margin: 10px auto;
+	color: #DDD;
+}
+
+form#contactForm .error{
+	color: #F00;
+	font-size: 10px;
+	line-height: 10px;
+}
+
+	form#contactForm legend{
+		font-size: 50px;
+		margin: auto;
+	}
+
+	form#contactForm fieldset{
+		border: none;
+	}
+
+	form#contactForm fieldset ul{
+		list-style: none;
+	}
+
+	form#contactForm fieldset div.left{
+		margin-left: 220px;
+	}
+
+	form#contactForm fieldset div.left li{
+		line-height: 30px;
+	}	
+
+	form#contactForm fieldset div.left label{
+		display: inline-block;
+		width:100px;
+		margin-top: 2px;
+		font-size: 14px;
+
+	}
+
+	form#contactForm fieldset div.left label:last-of-type{
+		display: block;
+	}
+
+
+
+	form#contactForm fieldset div.left input{
+		display: inline-block;
+		width: 300px;
+	}
+
+	form#contactForm fieldset div.left textarea{
+		display: block;
+		width: 300px;
+	}
+
+	form#contactForm fieldset div.left input:focus, form#contactForm fieldset div.left textarea:focus{
+		background-color: #eaeaea;
+		color: #33E;
+		font-weight: bold;
+	}
+
+
+	form#contactForm fieldset div.left ul.buttons{
+		display: flex;
+		padding-top: 10px;
+	}
+
+	form#contactForm fieldset div.left ul.buttons li{
+		margin-left: 55px;
+	}
+
+	form#contactForm fieldset div.left ul.buttons button{
+		border: none;
+		text-transform: uppercase;
+		box-shadow: 1px 1px 2px #888;
+		background-color: #DDD;
+		color: #000;
+		font-size: 14px;
+		letter-spacing: 1px;
+		border-radius: 15px;
+		padding: 5px;
+		font-weight: bold;
+	}
+
+
+	form#contactForm fieldset div.right{
+		text-align: left;
+		padding-top: 20px;
+		padding-left: 200px;
+	}
+
+	form#contactForm fieldset div.right ul li{
+		line-height: 50px;
+	}
+
+	form#contactForm fieldset div.right ul li label{
+	}
+
+	form#contactForm fieldset div.right img{
+		width: 15px;
+	}
+
+	
+
+
+
+	/* Footer sections */
+	footer#below nav#footer_navi{
+			width: 100%;
+	}
+
+		footer#below nav#footer_navi ul{
+			display: flex;
+			justify-content: center;
+			list-style: none;
+		} 	
+
+		footer#below nav#footer_navi ul li a:link{
+			font-size: 10px;
+			padding: 2px;
+			text-decoration: none;
+			color: #DDD;
+		}
+
+		footer#below nav#footer_navi ul li a:visited{
+			color: 	#DDD;
+		}
+
+		footer#below nav#footer_navi ul li img{
+			width: 10px;
+		}
+
+	footer#below p{
+		font-size: 10px;
+		color: #DDD;
+		text-align: center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for above 800px screen */
+@media(min-width: 800px){
+	#heading{
+		display: flex;
+		height: 100px;
+
+	}
+
+	#heading > h1{
+		
+		text-align: center;
+		font-size: 20px;
+		padding-top: 0px;
+		padding-left: 20px;
+		margin: 10px;
+	}
+
+	#navi{
+		width: 400px;
+	}
+
+	#navi ul{
+		display: flex;
+		flex-wrap: wrap;	
+	}
+
+	#navi ul li{
+		flex: 1;
+
+	}
+
+	#navi ul li a:link{
+		font-size: 12px;
+	}
+
+
+	#navi ul li:hover:not(:last-of-type){
+		border-bottom: 2px solid #833;
+		background-color: hsla(0, 100%, 0%, 0.0);
+	}
+
+	#navi ul li li:hover:last-of-type{
+		border-bottom: 2px solid #833;	
+		background-color: hsla(0, 100%, 0%, 0.0);
+	}
+
+
+
+	#navi ul ul#socials{
+		width: auto;
+	}
+
+	#navi ul ul#socials li{
+		margin: 1px;
+	}
+
+	form#contactForm fieldset{
+		margin: 0;
+		padding: 0;
+	}
+
+	form#contactForm fieldset div.left{
+		margin-left: 0px;
+		float: left;
+		padding-top: 0px;
+	}
+ 
+	form#contactForm fieldset div.right{
+		float: right;
+		margin-left: 0px;
+		padding-left: 0px;
+		margin-right: 30px;
+		text-align: left;
+	}
+
+	form#contactForm legend{
+		font-size: 50px;
+		margin: 0px;
+	}
+
+	#profile_contents ul{
+		width:  100%;
+	}
+
+}
+
+
+
+

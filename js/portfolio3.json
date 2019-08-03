@@ -1,0 +1,59 @@
+[
+	{
+		"title" : "EDUCATION",
+		"table"	:	[
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Business Information Technology Diploma",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "Jan, 2019 - Current",
+				"description": "Web Development, Application Development, Database Management, Network Management"
+			}
+		]
+	},
+	{
+		"title" : "AWARDS",
+		"table"	:	[
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Applied Computer Education Research Awards",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "June 13, 2019",
+				"description": "Applications must be accompanied by an essay describing their research project and conclusions.   Academic achievement is also considered. "
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Honor Roll Certificate - Term 1",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "May 14, 2019",
+				"description": "GPA 4.50"
+			}
+		]
+	},
+	{
+		"title" : "VOLUNTEER",
+		"table"	:	[
+			{
+				"image": "images/apage_table.png",
+				"name" : "Data Entry & Dish washer",
+				"place" : "Agape Table",
+				"date" : "May, 2019 - Current",
+				"description": "Input database and made work spread sheet, washed up the dishes, distributed foods for people in need"
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Networking Space Host",
+				"place" : "Red Forum 2019",
+				"date" : "May 10, 2019",
+				"description": "Had coffee, water and popcorn ready, Answered questions and tidied up tables"
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Session Organizer",
+				"place" : "RRC booth at 2019 Rotary Career Symposium",
+				"date" : "Mar 4, 2019",
+				"description": "Welcomed visitors and attendents, Explained Red River Collge Applied Computer Education Department Programs"
+			}
+		]
+	}
+]
