@@ -1,11 +1,3 @@
-<!-------s--------
-
-    Assignment Project
-    Name: Jinyoung JANG
-    Date: June 16, 2019
-    Description: Web Portfolio contact page
-
------------------>
 <!DOCTYPE html>
 <html lang=en>
 <head>
@@ -47,63 +39,10 @@
 		</nav>	
 	</header>
 
-	
-
-	<!-- Content Section -->
-	<form id="contactForm" action="https://formspree.io/jjsung33@naver.com" method="POST">
-		<fieldset>
-			<legend>CONTACT ME</legend>
-			<div class="left">
-				<ul>
-					<li>
-						<label for="name">Name</label>
-						<input id="name" name="name" type="text" placeholder="Your Name"/>
-						<p class="error" id="name_error">* Required field</p>
-					</li>
-					<li>
-						<label for="_replyto">Email</label>
-						<input id="_replyto" name="_replyto" type="email" placeholder="Your Email"/>
-						<p class="error" id="email_error">* Required field</p>
-						<p class="error" id="emailformat_error">* Invalid email address</p>
-					</li>
-					<li>
-						<label for="subject">Subject</label>
-						<input id="subject" name="subject" type="text" placeholder="Subject"/>
-						<p class="error" id="subject_error">* Required field</p>
-					</li>
-					<li>
-						<label for="message">Your Message</label>
-						<textarea id="message" name="message" rows="8" cols="30" placeholder="Type your message here"></textarea>
-					</li>
-				</ul>
-				<ul class="buttons">
-					<li><button type="submit" id="submit">Submit</button></li>
-					<li><button type="reset" id="clear">Clear</button></li>
-				</ul>
-			</div>
-
-			<div class="right">
-				<ul>
-					<li><a href="#"><img class="myEmailAddress" src="images/mail-1454731_960_720.png" alt="email"></a> <label>Email: jjy2zzbai2@gmail.com</label></li>
-					<li><a href="https://www.linkedin.com/in/jinyoungjang/"><img src="images/LinkedIn_logo_initials.png" alt="linkedin"></a> <label>Linkedin: www.linkedin.com/in/jinyoungjang/</label></li>
-					<li><a href="https://www.instagram.com/jinyoung_rrc/"><img src="images/198px-Instagram_logo_2016.svg.png" alt="instagram"></a> <label>@jinyoung_rrc</label></li>
-				</ul>
-				
-			</div>
-
-			<!-- Hidden filed to redirect user to homepage -->
-			<input type="hidden" name="_next" value="/thanks.html" />
-
-			<!-- Hidden filed to protect from bots -->
-			<input type="text" name="_gotcha" style="display:none" />
-
-			<script>
-				 var contactform =  document.getElementById('formaction');
-    			 contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
-			</script>
-			
-		</fieldset>
-	</form>
+	<div id="thank_you">
+		<h2>Thank you</h2>
+		<h4><a href="index.html">Click to Go Back</a></h4>
+	</div>
 
 	<!-- Footer Navi -->
 	<footer id="below">
