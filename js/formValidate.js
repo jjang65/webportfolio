@@ -19,7 +19,7 @@
 
  * Date Created: June. 17. 2019
 
- * Last Modified: June. 17. 2019
+ * Last Modified: August. 3. 2019
 
  */
 
@@ -118,13 +118,13 @@ function formHasErrors()
 
 
 	// Check if fullname is empty or not
-	let fullname = document.getElementById("fullname");
-	if(!formFieldHasInput(fullname)){
+	let name = document.getElementById("name");
+	if(!formFieldHasInput(name)){
 		// Display the appropriate error message
-		document.getElementById("fullname_error").style.display = "block";
+		document.getElementById("name_error").style.display = "block";
 		if(!errorFlag){
-			fullname.focus();
-			fullname.select();
+			name.focus();
+			name.select();
 		}
 
 		// Raise the error flag
@@ -164,39 +164,53 @@ function formHasErrors()
 		errorFlag = true;
 	}
 
+	// Check if subject is empty or not
+	let subject = document.getElementById("subject");
+	if(!formFieldHasInput(subject)){
+		// Display the appropriate error message
+		document.getElementById("subject_error").style.display = "block";
+		if(!errorFlag){
+			subject.focus();
+			subject.select();
+		}
+
+		// Raise the error flag
+		errorFlag = true;
+	}
+
 
 
 	// Check if phone is empty or not
-	let phone = document.getElementById("phone");
-	if(!formFieldHasInput(phone)){
-		// Display the appropriate error message
-		document.getElementById("phone_error").style.display = "block";
-		if(!errorFlag){
-			phone.focus();
-			phone.select();
-		}
+	// let phone = document.getElementById("phone");
+	// if(!formFieldHasInput(phone)){
+	// 	// Display the appropriate error message
+	// 	document.getElementById("phone_error").style.display = "block";
+	// 	if(!errorFlag){
+	// 		phone.focus();
+	// 		phone.select();
+	// 	}
 
-		// Raise the error flag
-		errorFlag = true;
-	}
+	// 	// Raise the error flag
+	// 	errorFlag = true;
+	// }
 
-	// Create a regular expression for phone
-	let regexForPhone = new RegExp(/^\d{10}$/);
+	// // Create a regular expression for phone
+	// let regexForPhone = new RegExp(/^\d{10}$/);
 
-	let phoneValue = document.getElementById("phone").value;
+	// let phoneValue = document.getElementById("phone").value;
 
-	// Determine if the value passes the regexForPhone
-	if(!regexForPhone.test(phoneValue)){
-		// Display the appropriate error message
-		document.getElementById("phoneformat_error").style.display = "block";
-		if(!errorFlag){
-			phone.focus();
-			phone.select();
-		}
+	// // Determine if the value passes the regexForPhone
+	// if(!regexForPhone.test(phoneValue)){
+	// 	// Display the appropriate error message
+	// 	document.getElementById("phoneformat_error").style.display = "block";
+	// 	if(!errorFlag){
+	// 		phone.focus();
+	// 		phone.select();
+	// 	}
 
-		// Raise the error flag
-		errorFlag = true;
-	}
+	// 	// Raise the error flag
+	// 	errorFlag = true;
+	// }
 
 
 	//Raise the error flag
