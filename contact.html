@@ -90,6 +90,17 @@
 				</ul>
 				
 			</div>
+
+			<!-- Hidden filed to redirect user to homepage -->
+			<input type="hidden" name="_next" value="//jjang65.github.io/webportfolio/index.html" />
+
+			<!-- Hidden filed to protect from bots -->
+			<input type="text" name="_gotcha" style="display:none" />
+
+			<script>
+				 var contactform =  document.getElementById('formaction');
+    			 contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+			</script>
 			
 		</fieldset>
 	</form>
