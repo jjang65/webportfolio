@@ -50,27 +50,26 @@
 	
 
 	<!-- Content Section -->
-	<form id="contactForm" action="./index.html" method="get">
+	<form id="contactForm" action="http://jinyoungjang.net/contact_handler_for_portfolio.php" method="post">
 		<fieldset>
 			<legend>CONTACT ME</legend>
 			<div class="left">
 				<ul>
 					<li>
-						<label for="fullname">Full Name</label>
-						<input id="fullname" name="fullname" type="text" />
-						<p class="error" id="fullname_error">* Required field</p>
+						<label for="name">Name</label>
+						<input id="name" name="name" type="text" placeholder="Your Name"/>
+						<p class="error" id="name_error">* Required field</p>
 					</li>
 					<li>
 						<label for="email">Email</label>
-						<input id="email" name="email" type="text" />
+						<input id="email" name="email" type="text" placeholder="Your Email"/>
 						<p class="error" id="email_error">* Required field</p>
 						<p class="error" id="emailformat_error">* Invalid email address</p>
 					</li>
 					<li>
-						<label for="phone">Phone</label>
-						<input id="phone" name="phone" type="text" />
-						<p class="error" id="phone_error">* Required field</p>
-						<p class="error" id="phoneformat_error">* Invalid phone number</p>
+						<label for="subject">Subject</label>
+						<input id="subject" name="subject" type="text" placeholder="Subject"/>
+						<p class="error" id="subject_error">* Required field</p>
 					</li>
 					<li>
 						<label for="message">Your Message</label>
