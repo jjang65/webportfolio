@@ -133,13 +133,13 @@ function formHasErrors()
 
 
 	// Check if email is empty or not
-	let email = document.getElementById("email");
-	if(!formFieldHasInput(email)){
+	let _replyto = document.getElementById("_replyto");
+	if(!formFieldHasInput(_replyto)){
 		// Display the appropriate error message
 		document.getElementById("email_error").style.display = "block";
 		if(!errorFlag){
-			email.focus();
-			email.select();
+			_replyto.focus();
+			_replyto.select();
 		}
 
 		// Raise the error flag
@@ -149,15 +149,15 @@ function formHasErrors()
 	// Create a regular expression for email
 	let regexForEmail = new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
 
-	let emailFieldValue = document.getElementById("email").value;
+	let emailFieldValue = document.getElementById("_replyto").value;
 
 	// Determine if the value passes the regexForAddress
 	if(!regexForEmail.test(emailFieldValue)){
 		// Display the appropriate error message
 		document.getElementById("emailformat_error").style.display = "block";	
 		if(!errorFlag){
-			email.focus();
-			email.select();
+			_replyto.focus();
+			_replyto.select();
 		}
 
 		// Raise the error flag
