@@ -1,5 +1,5 @@
 /******s**********
-    
+
     Assignment Project
     Name: Jinyoung JANG
     Date: June 16, 2019
@@ -29,7 +29,7 @@ header#heading{
 	width: 100%;
 	margin: 10px 0px;
 }
-	
+
 	header#heading > h1{
 		font-size: 20px;
 		margin: auto;
@@ -128,7 +128,7 @@ header#heading{
 
 	#mainpage h2{
 		font-size: 60px;
-	}	
+	}
 
 	#mainpage h3{
 		font-size: 24px;
@@ -228,7 +228,23 @@ header#heading{
 
 	#project_contents img{
 		width: 250px;
-		float: right;
+
+		position: absolute;
+		right: 0px;
+	}
+
+	#pricepredictorImg2 {
+		top: 200px;
+	}
+
+	#RRCAutoImg2{
+		width: 250px;
+		top: 135px;
+		position: relative;
+	}
+
+	.red{
+		color: red;
 	}
 
 	#project_contents label{
@@ -257,7 +273,7 @@ header#heading{
 
 
 
-/* 
+/*
 ct Form Styles */
 form#contactForm{
 	width: 800px;
@@ -291,7 +307,7 @@ form#contactForm .error{
 
 	form#contactForm fieldset div.left li{
 		line-height: 30px;
-	}	
+	}
 
 	form#contactForm fieldset div.left label{
 		display: inline-block;
@@ -364,7 +380,7 @@ form#contactForm .error{
 		width: 15px;
 	}
 
-	
+
 
 
 
@@ -377,7 +393,7 @@ form#contactForm .error{
 			display: flex;
 			justify-content: center;
 			list-style: none;
-		} 	
+		}
 
 		footer#below nav#footer_navi ul li a:link{
 			font-size: 10px;
@@ -419,7 +435,7 @@ form#contactForm .error{
 	}
 
 	#heading > h1{
-		
+
 		text-align: center;
 		font-size: 20px;
 		padding-top: 0px;
@@ -433,7 +449,7 @@ form#contactForm .error{
 
 	#navi ul{
 		display: flex;
-		flex-wrap: wrap;	
+		flex-wrap: wrap;
 	}
 
 	#navi ul li{
@@ -452,7 +468,7 @@ form#contactForm .error{
 	}
 
 	#navi ul li li:hover:last-of-type{
-		border-bottom: 2px solid #833;	
+		border-bottom: 2px solid #833;
 		background-color: hsla(0, 100%, 0%, 0.0);
 	}
 
@@ -476,7 +492,7 @@ form#contactForm .error{
 		float: left;
 		padding-top: 0px;
 	}
- 
+
 	form#contactForm fieldset div.right{
 		float: right;
 		margin-left: 0px;
@@ -513,5 +529,3 @@ form#contactForm .error{
 	#thank_you a:visited{
 		color: #FFF;
 	}
-
-

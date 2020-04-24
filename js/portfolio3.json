@@ -16,6 +16,20 @@
 		"table"	:	[
 			{
 				"image": "images/Red_River_College_logo.png",
+				"name" : "Paterson GobalFoods Business Information Technology Award",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "March 16, 2020",
+				"description": "Recipients will have achieved a minimum 3.00 GPA, demonstrated volunteer activity in the community and displayed a strong work ethic in class."
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Honor Roll Certificate - Term 2",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "January 24, 2020",
+				"description": "GPA 4.50"
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
 				"name" : "Applied Computer Education Research Awards",
 				"place" : "Applied Computer Education Department, Red River College",
 				"date" : "June 13, 2019",
@@ -34,6 +48,20 @@
 		"title" : "VOLUNTEER",
 		"table"	:	[
 			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Peer Tutor",
+				"place" : "Red River College",
+				"date" : "Jan 2020 - Present",
+				"description": "Assisting students with programming (Java, C#) and database skills to improve academic performance. Identifying and meeting the students’ learning needs by reasoning and visualization."
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Intercultural Mentorship Program",
+				"place" : "Red River College",
+				"date" : "Jan - Mar, 2020",
+				"description": "Developed a relationship with a local student to share different cultures and life perspectives. Experienced Canadian activities such as local restaurants, museums, cinemas."
+			},
+			{
 				"image": "images/apage_table.png",
 				"name" : "Data Entry & Dish washer",
 				"place" : "Agape Table",
@@ -45,7 +73,7 @@
 				"name" : "Networking Space Host",
 				"place" : "Red Forum 2019",
 				"date" : "May 10, 2019",
-				"description": "Had coffee, water and popcorn ready, Answered questions and tidied up tables"
+				"description": "Prepared coffee, water and popcorn ready, Answered questions and tidied up tables"
 			},
 			{
 				"image": "images/Red_River_College_logo.png",

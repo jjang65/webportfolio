@@ -1,5 +1,5 @@
 /******s**********
-    
+
     Assignment Project
     Name: Jinyoung JANG
     Date: June 16, 2019
@@ -43,13 +43,14 @@ function load(){
 
 
 /*
+
  * With XMLHttpRequest object, open json file, and sends it back to load function to create profile
 
  * param callback  returning data from anonymous function in load()
 
  */
 
-function loadJSON(callback) {   
+function loadJSON(callback) {
 
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
@@ -61,11 +62,12 @@ function loadJSON(callback) {
             callback(xobj.responseText);
         }
     };
-    xobj.send(null);  
+    xobj.send(null);
 }
 
 
 /*
+
  * create profile webpagge by using JSON
 
  * param protfolioData data from JSON file
@@ -93,7 +95,7 @@ function createProfile(portfolioData){
 
 			let li = document.createElement("li");
 			let img = document.createElement("img");
-            let label = document.createElement("label"); 
+            let label = document.createElement("label");
             let h6 = document.createElement("h6");
             let p = document.createElement("p");
 
@@ -119,8 +121,6 @@ function createProfile(portfolioData){
             ul.appendChild(li3);
             ul.appendChild(li4);
             divProfile.appendChild(ul);
-   			
 		}
 	}
-
 }
