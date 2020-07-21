@@ -32,11 +32,9 @@ document.addEventListener("DOMContentLoaded",load);
  */
 
 function load(){
-	console.log("Start");
 	loadJSON(function(response) {
         // Parse JSON string into object
         portfolioData = JSON.parse(response);
-        console.log(portfolioData.length);
         createProfile(portfolioData);
     });
 }
@@ -75,52 +73,45 @@ function loadJSON(callback) {
  */
 
 function createProfile(portfolioData){
-
-	console.log("-----------------------------------------------");
 	for(let i=0; i<portfolioData.length; i++){
-		console.log(portfolioData[i].title);
 		let portfolio = portfolioData[i];
-		console.log("-----------------------------------------------");
 
 		let h5 = document.createElement("h5");
 		h5.innerHTML = portfolioData[i].title;
 		let divProfile = document.getElementById("profile_contents");
 		divProfile.appendChild(h5);
 
-
-		for(let j=0; j<portfolio.table.length; j++){
+		for(let j=0; j<portfolio.table.length; j++) {
 			let ul = document.createElement("ul");
-
-			console.log("portfolio.table.length: " + portfolio.table.length);
 
 			let li = document.createElement("li");
 			let img = document.createElement("img");
-            let label = document.createElement("label");
-            let h6 = document.createElement("h6");
-            let p = document.createElement("p");
+      let label = document.createElement("label");
+      let h6 = document.createElement("h6");
+      let p = document.createElement("p");
 
-            img.setAttribute("src", portfolio.table[j].image);
-            label.innerHTML = portfolio.table[j].name;
-            li.appendChild(img);
-            li.appendChild(label);
+      img.setAttribute("src", portfolio.table[j].image);
+      label.innerHTML = portfolio.table[j].name;
+      li.appendChild(img);
+      li.appendChild(label);
 
-            let li2 = document.createElement("li");
-            h6.innerHTML = portfolio.table[j].place;
-            li2.appendChild(h6);
+      let li2 = document.createElement("li");
+      h6.innerHTML = portfolio.table[j].place;
+      li2.appendChild(h6);
 
-            let li3 = document.createElement("li");
-            li3.setAttribute("class", "date");
-            li3.innerHTML = portfolio.table[j].date;
+      let li3 = document.createElement("li");
+      li3.setAttribute("class", "date");
+      li3.innerHTML = portfolio.table[j].date;
 
-            let li4 = document.createElement("li");
-            p.innerHTML = portfolio.table[j].description;
-            li4.appendChild(p);
+      let li4 = document.createElement("li");
+      p.innerHTML = portfolio.table[j].description;
+      li4.appendChild(p);
 
-            ul.appendChild(li);
-            ul.appendChild(li2);
-            ul.appendChild(li3);
-            ul.appendChild(li4);
-            divProfile.appendChild(ul);
+      ul.appendChild(li);
+      ul.appendChild(li2);
+      ul.appendChild(li3);
+      ul.appendChild(li4);
+      divProfile.appendChild(ul);
 		}
 	}
 }

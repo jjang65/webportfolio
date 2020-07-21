@@ -1,5 +1,17 @@
 [
 	{
+		"title" : "WORK EXPERIENCE",
+		"table"	:	[
+			{
+				"image": "images/university-of-manitoba-logo_1.jpg",
+				"name" : "Co-op Developer",
+				"place" : "Information Service Technology, U of M",
+				"date" : "May - Aug, 2020",
+				"description": "Web Application Development (NodeJS, Angular, PHP, Jenkins, GitLab)"
+			}
+		]
+	},
+	{
 		"title" : "EDUCATION",
 		"table"	:	[
 			{
@@ -14,6 +26,27 @@
 	{
 		"title" : "AWARDS",
 		"table"	:	[
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Applied Computer Education Leadership and Community Awards",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "June 16, 2020",
+				"description": "A recipient who show leadership in the College or community.  Applications must be accompanied by an essay describing (with examples) their leadership qualities in their family, College and community."
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Applied Computer Education Academic Achievement Award for First-Year Students",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "June 16, 2020",
+				"description": "Recipients who have completed the first year of an Applied Computer Education diploma program, on the basis of outstanding academic achievement"
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Honor Roll Certificate - Term 3",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "May, 2020",
+				"description": "GPA 4.50"
+			},
 			{
 				"image": "images/Red_River_College_logo.png",
 				"name" : "Paterson GobalFoods Business Information Technology Award",
