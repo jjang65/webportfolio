@@ -6,8 +6,8 @@
 				"image": "images/university-of-manitoba-logo_1.jpg",
 				"name" : "Co-op Developer",
 				"place" : "Information Service Technology, U of M",
-				"date" : "May - Aug, 2020",
-				"description": "Web Application Development (NodeJS, Angular, PHP, Jenkins, GitLab)"
+				"date" : "May - Present, 2020",
+				"description": "Full stack Web Application Development (NodeJS, Angular, PHP, Jenkins Pipelines)"
 			}
 		]
 	},
@@ -28,6 +28,13 @@
 		"table"	:	[
 			{
 				"image": "images/Red_River_College_logo.png",
+				"name" : "Canada Life Awards",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "September 1, 2020",
+				"description": "Twelve $2500 awards are available annually to students who will be entering their final year. Criteria include financial need and a strong academic record (minimum cumulative GPA of 3.00), as well as volunteerism/community involvement."
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
 				"name" : "Applied Computer Education Leadership and Community Awards",
 				"place" : "Applied Computer Education Department, Red River College",
 				"date" : "June 16, 2020",
@@ -39,6 +46,13 @@
 				"place" : "Applied Computer Education Department, Red River College",
 				"date" : "June 16, 2020",
 				"description": "Recipients who have completed the first year of an Applied Computer Education diploma program, on the basis of outstanding academic achievement"
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "RRC Students' Association International Student Scholarship",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "June 2, 2020",
+				"description": "Four scholarships of $1000 each will be awarded to international students, attending a post-secondary Red River College program on a full-time basis. The scholarships will be presented to the students who attain the highest GPA after their first term; applicants must have achieved a minimum 4.00 GPA after first term. A first term grade report should accompany the application, as well as a one-page statement outlining your experience thus far in Canada and at Red River College."
 			},
 			{
 				"image": "images/Red_River_College_logo.png",

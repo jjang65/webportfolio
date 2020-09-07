@@ -4,6 +4,7 @@
     Name: Jinyoung JANG
     Date: June 16, 2019
     Description: Styles for Web Portfolio
+		Update: September 1, 2020
 
 *****************/
 
@@ -117,7 +118,7 @@ header#heading{
 		}*/
 
 
-/* Content Section */
+/* Main page */
 #mainpage{
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	text-align: center;
@@ -142,6 +143,7 @@ header#heading{
 	}
 
 
+/* Profile page */
 #profile_contents{
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	text-align: center;
@@ -181,9 +183,8 @@ header#heading{
 	#profile_contents li.date{
 		position: absolute;
 		right: 10px;
-		top: 0px;
-		font-size: 14px;
-
+		top: -27px;
+		font-size: 18px;
 	}
 
 	#profile_contents h6{
@@ -197,8 +198,6 @@ header#heading{
 		font-size: 14px;
 		margin: 0;
 	}
-
-
 
 #project_contents{
 	font-family: 'Open Sans', Helvetica, sans-serif;
@@ -256,7 +255,6 @@ header#heading{
 		right: 10px;
 		top: -45px;
 		font-size: 14px;
-
 	}
 
 	#project_contents h6{
@@ -269,8 +267,6 @@ header#heading{
 		font-size: 14px;
 		margin: 0;
 	}
-
-
 
 
 /*
@@ -314,14 +310,11 @@ form#contactForm .error{
 		width:100px;
 		margin-top: 2px;
 		font-size: 14px;
-
 	}
 
 	form#contactForm fieldset div.left label:last-of-type{
 		display: block;
 	}
-
-
 
 	form#contactForm fieldset div.left input{
 		display: inline-block;
@@ -338,7 +331,6 @@ form#contactForm .error{
 		color: #33E;
 		font-weight: bold;
 	}
-
 
 	form#contactForm fieldset div.left ul.buttons{
 		display: flex;
@@ -362,7 +354,6 @@ form#contactForm .error{
 		font-weight: bold;
 	}
 
-
 	form#contactForm fieldset div.right{
 		text-align: left;
 		padding-top: 20px;
@@ -379,10 +370,6 @@ form#contactForm .error{
 	form#contactForm fieldset div.right img{
 		width: 15px;
 	}
-
-
-
-
 
 	/* Footer sections */
 	footer#below nav#footer_navi{
@@ -417,15 +404,6 @@ form#contactForm .error{
 	}
 
 
-
-
-
-
-
-
-
-
-
 /* Media query for above 800px screen */
 @media(min-width: 800px){
 	#heading{
@@ -454,13 +432,11 @@ form#contactForm .error{
 
 	#navi ul li{
 		flex: 1;
-
 	}
 
 	#navi ul li a:link{
 		font-size: 12px;
 	}
-
 
 	#navi ul li:hover:not(:last-of-type){
 		border-bottom: 2px solid #833;
@@ -471,8 +447,6 @@ form#contactForm .error{
 		border-bottom: 2px solid #833;
 		background-color: hsla(0, 100%, 0%, 0.0);
 	}
-
-
 
 	#navi ul ul#socials{
 		width: auto;
@@ -509,8 +483,8 @@ form#contactForm .error{
 	#profile_contents ul{
 		width:  100%;
 	}
-
 }
+
 
 #thank_you{
 	margin-left: 320px;
