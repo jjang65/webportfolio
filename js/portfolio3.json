@@ -102,6 +102,13 @@
 		"title" : "VOLUNTEER",
 		"table"	:	[
 			{
+				"image": "images/origatou.png",
+				"name" : "Volunteer Developer",
+				"place" : "Ori.Gatou",
+				"date" : "Jul 2020 - Present",
+				"description": "Creating a website using Python - Django Framework that provides web services replacing paper flyers with digital advertisements for reducing promotion expenses and saving paper, targeting small businesses."
+			},
+			{
 				"image": "images/Red_River_College_logo.png",
 				"name" : "Peer Tutor",
 				"place" : "Red River College",
