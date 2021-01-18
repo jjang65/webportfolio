@@ -4,9 +4,9 @@
 		"table"	:	[
 			{
 				"image": "images/university-of-manitoba-logo_1.jpg",
-				"name" : "Co-op Developer",
+				"name" : "Developer as a co-op student",
 				"place" : "Information Service Technology, U of M",
-				"date" : "May - Present, 2020",
+				"date" : "May - Dec, 2020",
 				"description": "Full stack Web Application Development (NodeJS, Angular, PHP, Jenkins Pipelines)"
 			}
 		]
@@ -26,6 +26,13 @@
 	{
 		"title" : "AWARDS",
 		"table"	:	[
+			{
+				"image": "CEM",
+				"name" : "Co-operative Education Manitoba (CEM) Co-op Student of the Year Award",
+				"place" : "Co-operative Education Manitoba",
+				"date" : "January 16, 2021",
+				"description": "Outstanding co-op student of 2020, evaluated by job achievement, academic achievement, student achievement, student’s personal statement, and student presentation."
+			},
 			{
 				"image": "images/Red_River_College_logo.png",
 				"name" : "Canada Life Awards",
