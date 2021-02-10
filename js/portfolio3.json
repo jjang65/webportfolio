@@ -27,6 +27,13 @@
 		"title" : "AWARDS",
 		"table"	:	[
 			{
+				"image": "images/bell-mts.jpg",
+				"name" : "Bell MTS Academic Excellence Award for Information Technology",
+				"place" : "Bell MTS",
+				"date" : "February 9, 2021",
+				"description": "Two $500 awards will be presented annually to students in the second year of the Business Information Technology programs based on outstanding academic achievement in the first year of the program."
+			},
+			{
 				"image": "images/Red_River_College_logo.png",
 				"name" : "Co-operative Education Manitoba (CEM) Co-op Student of the Year Award",
 				"place" : "Co-operative Education Manitoba",
@@ -36,7 +43,7 @@
 			{
 				"image": "images/Red_River_College_logo.png",
 				"name" : "Canada Life Awards",
-				"place" : "Applied Computer Education Department, Red River College",
+				"place" : "Red River College",
 				"date" : "September 1, 2020",
 				"description": "Twelve $2500 awards are available annually to students who will be entering their final year. Criteria include financial need and a strong academic record (minimum cumulative GPA of 3.00), as well as volunteerism/community involvement."
 			},
@@ -57,7 +64,7 @@
 			{
 				"image": "images/Red_River_College_logo.png",
 				"name" : "RRC Students' Association International Student Scholarship",
-				"place" : "Applied Computer Education Department, Red River College",
+				"place" : "Red River College",
 				"date" : "June 2, 2020",
 				"description": "Four scholarships of $1000 each will be awarded to international students, attending a post-secondary Red River College program on a full-time basis. The scholarships will be presented to the students who attain the highest GPA after their first term; applicants must have achieved a minimum 4.00 GPA after first term. A first term grade report should accompany the application, as well as a one-page statement outlining your experience thus far in Canada and at Red River College."
 			},
