@@ -4,6 +4,20 @@
 		"table"	:	[
 			{
 				"image": "images/university-of-manitoba-logo_1.jpg",
+				"name" : "Information Technologist 2 - (Software Developer)",
+				"place" : "Information Service Technology, U of M",
+				"date" : "Jun, 2021 - Current",
+				"description": "ANALYSIS AND DESIGN, DEVELOPMENT, MAINTENANCE AND SUPPORT"
+			},
+			{
+				"image": "images/university-of-manitoba-logo_1.jpg",
+				"name" : "Information Technologist 2 - (Software Developer, Part-time)",
+				"place" : "Information Service Technology, U of M",
+				"date" : "May - Jun, 2021",
+				"description": "ANALYSIS AND DESIGN, DEVELOPMENT, MAINTENANCE AND SUPPORT"
+			},
+			{
+				"image": "images/university-of-manitoba-logo_1.jpg",
 				"name" : "Developer as a co-op student",
 				"place" : "Information Service Technology, U of M",
 				"date" : "May - Dec, 2020",
@@ -18,8 +32,20 @@
 				"image": "images/Red_River_College_logo.png",
 				"name" : "Business Information Technology Diploma",
 				"place" : "Applied Computer Education Department, Red River College",
-				"date" : "Jan, 2019 - Current",
+				"date" : "Jan, 2019 - May, 2021",
 				"description": "Web Development, Application Development, Database Management, Network Management"
+			}
+		]
+	},
+	{
+		"title" : "CERTIFICATE",
+		"table"	:	[
+			{
+				"image": "images/Org_AXELOS.png",
+				"name" : "ITIL® Foundation Certificate",
+				"place" : "AXELOS",
+				"date" : "Jun, 2021",
+				"description": "how ITIL evolved to adopt modern technologies and operational processes as well as the necessary concepts in a service management framework."
 			}
 		]
 	},
@@ -27,9 +53,51 @@
 		"title" : "AWARDS",
 		"table"	:	[
 			{
-				"image": "images/bell-mts.jpg",
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Red River College Gold Medal",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "June, 2021",
+				"description": "The Red River College Gold Medals recognize students in diploma  or degree programs who attain the highest cumulative grade point average at or above 3.80 in each academic year."
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Applied Computer Education Academic Achievement Graduation Awards",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "June, 2021",
+				"description": "Awards of $750 each will be presented annually, each spring, to students who have completed an Applied Computer Education program.  Recipients will be selected on the basis of outstanding academic achievement."
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Owen Desnoyers Memorial Award",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "June, 2021",
+				"description": "A minimum two awards valued at $1000 each will be available annually to students enrolled in the final year of a diploma, certificate or degree program at Red River College.  Eligible applicants will have attained a minimum GPA of 3.00; have been involved in the College community and contributed to student life at the College."
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Honor Roll Certificate - Term 5",
+				"place" : "Applied Computer Education Department, Red River College",
+				"date" : "June, 2021",
+				"description": "GPA 4.50"
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Business and Applied Arts Bursary",
+				"place" : "Red River College",
+				"date" : "March 15, 2021",
+				"description": "Red River College award endowment fund for $1000, established in part from contributions from the Province of Manitoba's Manitoba Scholarship and Bursary Initiative, or from funds established at The Winnipeg Foundation."
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
+				"name" : "Manitoba Scholarship and Bursary Initiative (MSBI) Bursary",
+				"place" : "Red River College",
+				"date" : "March 15, 2021",
+				"description": "$3000 Manitoba Scholarship and Bursary Initiative bursary to assist study at Red River College."
+			},
+			{
+				"image": "images/Red_River_College_logo.png",
 				"name" : "Bell MTS Academic Excellence Award for Information Technology",
-				"place" : "Bell MTS",
+				"place" : "Red River College",
 				"date" : "February 9, 2021",
 				"description": "Two $500 awards will be presented annually to students in the second year of the Business Information Technology programs based on outstanding academic achievement in the first year of the program."
 			},
