@@ -41,6 +41,13 @@
 		"title" : "CERTIFICATE",
 		"table"	:	[
 			{
+				"image": "images/azure.jpeg",
+				"name" : "Azure Fundamentals",
+				"place" : "Microsoft",
+				"date" : "Aug, 2022",
+				"description": "Basic cloud concepts, provides a streamlined overview of many Azure services"
+			},
+			{
 				"image": "images/Org_AXELOS.png",
 				"name" : "ITIL® Foundation Certificate",
 				"place" : "AXELOS",
@@ -180,7 +187,7 @@
 				"image": "images/origatou.png",
 				"name" : "Volunteer Developer",
 				"place" : "Ori.Gatou",
-				"date" : "Jul 2020 - Present",
+				"date" : "Jul 2020 - Jan 2021",
 				"description": "Creating a website using Python - Django Framework that provides web services replacing paper flyers with digital advertisements for reducing promotion expenses and saving paper, targeting small businesses."
 			},
 			{
